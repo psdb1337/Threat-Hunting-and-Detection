@@ -487,10 +487,10 @@ esent.dll,%syswow64%,%system32%\tieringengineservice.exe
 esent.dll,%system32%,%system32%\ntdsutil.exe
 esent.dll,%syswow64%,%system32%\ntdsutil.exe
 mpsvc.dll,%programdata%\microsoft\windows defender\platform\%version%,%programdata%\microsoft\windows defender\platform\%version%\msmpeng.exe
-mscoree.dll,%system32%,%system32%\aitstatic.exe
-mscoree.dll,%syswow64%,%system32%\aitstatic.exe
-mscoree.dll,%system32%,%system32%\presentationhost.exe
-mscoree.dll,%syswow64%,%system32%\presentationhost.exe
+mscoree.dll,%system32%,aitstatic.exe
+mscoree.dll,%syswow64%,aitstatic.exe
+mscoree.dll,%system32%,presentationhost.exe
+mscoree.dll,%syswow64%,presentationhost.exe
 mscoree.dll,%system32%,%windir%\microsoft.net\framework\v%version%\applaunch.exe
 mscoree.dll,%syswow64%,%windir%\microsoft.net\framework\v%version%\applaunch.exe
 avrt.dll,%system32%,%system32%\osk.exe
